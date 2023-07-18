@@ -68,6 +68,7 @@ nav ul > i{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 }
 .banner-title{
     color: #3A3A3A;
@@ -123,6 +124,7 @@ font-weight: 700;
     width: 80%;
     display:grid;
     grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
 }
 .popular-items > a{
 color: rgba(224, 44, 109, 0.87);
@@ -148,7 +150,6 @@ text-align: center;
     width:280px;
     padding: 20px;
     border-radius: 7px;
-    margin-bottom: 20px;
 }
 .popular-item-box > img{
     width: 100%;
