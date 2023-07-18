@@ -118,13 +118,15 @@ font-weight: 700;
 
 /* main section styles  */
 
-
+.popular-items >a{
+    margin-left: 20px;
+}
 .popular-items{
+    width:1090px;
+    height: auto;
     margin:30px auto;
-    width: 80%;
-    display:grid;
-    grid-template-columns: repeat(3 , 1fr);
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .popular-items > a{
 color: rgba(224, 44, 109, 0.87);
@@ -150,6 +152,7 @@ text-align: center;
     width:280px;
     padding: 20px;
     border-radius: 7px;
+    margin: 20px 20px;
 }
 .popular-item-box > img{
     width: 100%;
@@ -329,20 +332,22 @@ ul li>a{
             margin-top: 3.6px;
         }
 .sponsor{
+    display: flex;
+    flex-wrap: wrap;
     
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) ;
-    margin-bottom: 30px;
-    text-align: center;
-    gap: 10px;
 }
 .sponsor .sponsor-img img{
     width: 50px;
 }
 
+
     .popular-items{
+        width:auto;
         display: block;
         padding: 10px;
+    }
+    .popular-item-box{
+        margin-bottom: 20px;
     }
     .feature-container{
         padding: 10px;
